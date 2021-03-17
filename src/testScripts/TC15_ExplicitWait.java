@@ -7,8 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import sun.tools.jconsole.Plotter.Unit;
-
 public class TC15_ExplicitWait {
 
 	public static void main(String[] args) {
