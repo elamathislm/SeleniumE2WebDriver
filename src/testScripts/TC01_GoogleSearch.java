@@ -27,11 +27,10 @@ public class TC01_GoogleSearch {
 			
 			// Passed the input text (as a variable) to write in google search box
 			googleSearchElement.sendKeys(inputText);
-//			googleSearchElement.submit();              // googleSearchElement.sendKeys(Keys.ENTER);
+			googleSearchElement.submit();              // googleSearchElement.sendKeys(Keys.ENTER);
 			
-//			System.out.println("Title ->" + driver.getTitle());
-//			System.out.println("Current URL ->" + driver.getCurrentUrl());
-//			System.out.println("Current URL ->" + driver.getPageSource());
+			System.out.println("Title ->" + driver.getTitle());
+			System.out.println("Current URL ->" + driver.getCurrentUrl());
 			
 			// Navigate 
 //			driver.navigate().back();
@@ -60,8 +59,8 @@ public class TC01_GoogleSearch {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
-//			driver.close();
-//			driver.quit();
+			driver.close();
+			driver.quit();
 		}
 	}
 
